@@ -166,4 +166,4 @@ def create():
 @login_required
 def view(id):
     lista_materiales = ListaMateriales.query.get_or_404(id)
-    return render_template('bom/view.html', lista_materiales=lista_materiales)
+    return render_template('bom/view.html', lista_materiales=lista_materiales) #a
